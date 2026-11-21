@@ -832,7 +832,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &small  &to_va                  &to_ya  &to_ga  &to_ka  &to_ra  &to_pa  &trans
-&trans  &kp A   &kp O   &kp E   &kp U   &kp I   &trans  &trans  &to_da  &to_ha  &x_ta   &to_na  &to_sa  &trans
+&trans  &kp A   &kp O   &kp E   &kp U   &kp I   &trans  &trans  &to_da  &to_ha  &to_ta  &to_na  &to_sa  &trans
 &trans  &ann    &onn    &enn    &unn    &inn    &trans  &trans  &to_ba  &to_ma  &to_wa  &to_fa  &to_za  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
