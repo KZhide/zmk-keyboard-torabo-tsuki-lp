@@ -792,6 +792,27 @@
             bindings = <&to 0 &kp LANGUAGE_2>;
             label = "TO_ENGLISH";
         };
+
+        xx_ku: xx_ku {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp K &kp U>;
+            label = "XX_KU";
+        };
+
+        xx_ki: xx_ki {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp K &kp I>;
+            label = "XX_KI";
+        };
+
+        xx_tu: xx_tu {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp T &kp U>;
+            label = "XX_TU";
+        };
     };
 
     keymap {
@@ -861,7 +882,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &ara    &y_youon  &yuu    &ur     &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ata    &trans    &oto    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ata    &sl 24    &oto    &sl 25  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &angae  &amo      &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
@@ -882,7 +903,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &imas     &it     &ur     &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ar     &y_youon  &yuu    &ase    &you      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &orezore  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 26  &sl 24    &sl 25  &trans  &orezore  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans
             >;
         };
@@ -892,7 +913,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans    &trans   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &s_youon  &trans    &oki      &or      &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &oiu      &y_youon  &yuu      &osite   &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &h_youon  &itadak  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 26    &sl 24    &h_youon  &itadak  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans   &trans  &trans
             >;
         };
@@ -902,7 +923,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans   &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &agara    &aka      &ituite  &ar     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ado      &y_youon  &yuu     &kp N   &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &akereba  &trans    &akute   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &akereba  &sl 24    &akute   &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans   &trans  &trans  &trans
             >;
         };
@@ -910,7 +931,7 @@
         gact10_ha {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &ur       &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &sl 25  &ur       &sl 24  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &odo    &ito    &yuu    &y_youon  &you    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &anas   &trans  &trans  &trans    &ijou   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
@@ -921,7 +942,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans   &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans   &ono    &ar       &as     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ade      &trans   &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ade      &trans   &sl 25  &trans    &sl 24  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ousiage  &bs_omo  &yu_    &y_youon  &you    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans  &trans    &trans  &trans
             >;
@@ -931,7 +952,7 @@
             bindings = <
 &trans  &trans  &trans  &trans     &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &bs_ei     &trans  &trans                  &bs_iu  &oko    &ama    &or     &ar     &trans
-&trans  &trans  &trans  &otte      &trans  &oi     &trans  &trans  &asuk   &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &otte      &trans  &oi     &trans  &trans  &asuk   &trans  &trans  &trans  &sl 24  &trans
 &trans  &trans  &trans  &bs_iware  &trans  &asui   &trans  &trans  &ubi    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -941,7 +962,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &y_youon  &yuu    &trans  &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &are    &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &are    &sl 24    &sl 25  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &eba    &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
@@ -951,7 +972,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &ho_    &trans  &trans  &trans                  &trans  &trans  &akar   &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &atasi  &ar     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 24  &atasi  &ar     &trans  &trans
 &trans  &trans  &hon    &trans  &trans  &trans  &trans  &trans  &trans  &ho     &trans  &trans  &ho_    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -961,7 +982,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &eki    &ur       &ar     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 25  &trans    &sl 24  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &yuu    &y_youon  &you    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
             >;
@@ -971,7 +992,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &ur     &yuu    &y_youon  &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &oto    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &oto    &trans    &sl 24  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
             >;
@@ -981,7 +1002,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &ur     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 26  &sl 24    &sl 25  &ur     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &aruwo  &y_youon  &yuu    &ar     &you    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
@@ -990,7 +1011,7 @@
         gact10_da {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &aga    &eki    &or       &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &aga    &eki    &or       &sl 24  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ode      &eha    &ear    &y_youon  &es     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &h_youon  &emo    &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans
@@ -999,11 +1020,11 @@
 
         gact10_pa {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &eki    &ur       &ar     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &yuu    &y_youon  &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &y_youon  &yuu    &ur     &you    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 24    &sl 25  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -1011,7 +1032,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans     &trans  &trans
 &trans  &trans  &o_     &trans  &yu_    &trans                  &trans  &trans  &trans  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &yu     &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &yu     &trans  &trans  &trans  &trans  &sl 24  &trans  &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &yun    &trans  &trans  &trans  &trans  &trans  &trans  &bs_onazi  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans
             >;
@@ -1034,6 +1055,36 @@
 &trans  &bs_xa  &bs_xo  &bs_xe  &bs_xu  &bs_xi  &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bs_xwa  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans
+            >;
+        };
+
+        gact10_ku_youon {
+            bindings = <
+&trans  &trans    &trans    &trans    &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans    &trans    &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &xx_ku A  &xx_ku O  &xx_ku E  &xx_ku U  &xx_ku I  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        gact10_tu_youon {
+            bindings = <
+&trans  &trans    &trans    &trans    &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans    &trans    &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &xx_tu A  &xx_tu O  &xx_tu E  &xx_tu U  &xx_tu I  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        gact10_ki_youon {
+            bindings = <
+&trans  &trans    &trans    &trans    &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans    &trans    &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &xx_ki A  &xx_ki O  &xx_ki E  &xx_ki U  &xx_ki I  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
