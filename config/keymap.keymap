@@ -10,7 +10,7 @@
 
         bt_clear {
             bindings = <&bt BT_CLR>;
-            key-positions = <28 29>;
+            key-positions = <29 28>;
             layers = <2>;
         };
     };
@@ -20,11 +20,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC           &kp N1         &kp N2     &kp N3      &kp N4    &kp N5                                                            &kp N6                        &kp N7  &kp N8  &kp N9      &kp N0  &kp BSPC
-&kp TAB           &kp SQT        &kp COMMA  &kp PERIOD  &kp P     &kp Y                                                             &kp F                         &kp G   &kp C   &kp R       &kp L   &kp SLASH
-&kp LEFT_CONTROL  &kp A          &kp O      &kp E       &kp U     &kp I                        &mkp LCLK         &mkp RCLK          &kp D                         &kp H   &kp T   &kp N       &kp S   &kp MINUS
-&kp LSHFT         &kp SEMICOLON  &kp Q      &kp J       &kp K     &kp X                        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp B                         &kp M   &kp W   &kp V       &kp Z   &kp GRAVE
-&kp LEFT_ALT      &kp LCTRL      &kp LGUI   &kp ESCAPE  &kp BSPC  &mt LEFT_COMMAND LANGUAGE_2  &kp SPACE         &kp ENTER          &mt RIGHT_COMMAND LANGUAGE_1  &none   &none   &kp DELETE  &mo 3   &mo 2
+&none             &none          &none      &none       &none     &none                                                             &none                         &none  &none  &none       &none  &none
+&kp TAB           &kp SQT        &kp COMMA  &kp PERIOD  &kp P     &kp Y                                                             &kp F                         &kp G  &kp C  &kp R       &kp L  &kp SLASH
+&kp LEFT_CONTROL  &kp A          &kp O      &kp E       &kp U     &kp I                        &none             &none              &kp D                         &kp H  &kp T  &kp N       &kp S  &kp MINUS
+&kp LSHFT         &kp SEMICOLON  &kp Q      &kp J       &kp K     &kp X                        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp B                         &kp M  &kp W  &kp V       &kp Z  &lt 1 GRAVE
+&kp LEFT_ALT      &mo 1          &kp LGUI   &kp ESCAPE  &kp BSPC  &mt LEFT_COMMAND LANGUAGE_2  &kp SPACE         &kp ENTER          &mt RIGHT_COMMAND LANGUAGE_1  &none  &none  &kp DELETE  &mo 3  &mo 2
             >;
         };
 
@@ -40,11 +40,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans            &trans            &trans      &trans      &trans                      &trans          &trans         &trans            &trans             &trans         &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)      &kp LS(N7)     &kp LS(N8)        &kp LS(N9)         &kp LS(N0)     &trans
-&trans  &kp N1            &kp N2            &kp N3      &kp N4      &kp N5      &trans  &trans  &kp LEFT_BRACE  &kp MINUS      &kp EQUAL         &kp RIGHT_BRACE    &kp COLON      &trans
-&trans  &kp N6            &kp N7            &kp N8      &kp N9      &kp N0      &trans  &trans  &kp LS(MINUS)   &kp LS(EQUAL)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &kp TAB         &kp DEL        &trans            &trans             &trans         &trans
+&trans  &trans            &trans            &trans      &trans      &trans                      &trans         &trans             &trans           &trans        &trans           &trans
+&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)     &kp LS(N7)         &kp LS(N8)       &kp LS(N9)    &kp LS(N0)       &trans
+&trans  &kp N1            &kp N2            &kp N3      &kp N4      &kp N5      &trans  &trans  &kp EQUAL      &kp LEFT_ARROW     &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &kp N6            &kp N7            &kp N8      &kp N9      &kp N0      &trans  &trans  &kp BACKSLASH  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE    &trans           &trans
+&trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &trans         &trans             &trans           &trans        &trans           &trans
             >;
         };
 
