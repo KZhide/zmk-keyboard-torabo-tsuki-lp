@@ -778,6 +778,20 @@
             bindings = <&kp V &sl 5 &sl 22>;
             label = "TO_VA";
         };
+
+        to_japanese: to_japanese {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 1 &kp LANGUAGE_1>;
+            label = "TO_JAPANESE";
+        };
+
+        to_english: to_english {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp LANGUAGE_2>;
+            label = "TO_ENGLISH";
+        };
     };
 
     keymap {
@@ -785,11 +799,11 @@
 
         layer_0 {
             bindings = <
-&none             &none          &none      &none       &none     &none                                                             &none                         &none  &none  &none       &none  &none
-&kp TAB           &kp SQT        &kp COMMA  &kp PERIOD  &kp P     &kp Y                                                             &kp F                         &kp G  &kp C  &kp R       &kp L  &kp SLASH
-&kp LEFT_CONTROL  &kp A          &kp O      &kp E       &kp U     &kp I                        &none             &none              &kp D                         &kp H  &kp T  &kp N       &kp S  &kp MINUS
-&kp LSHFT         &kp SEMICOLON  &kp Q      &kp J       &kp K     &kp X                        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp B                         &kp M  &kp W  &kp V       &kp Z  &lt 4 GRAVE
-&kp LEFT_ALT      &mo 4          &kp LGUI   &kp ESCAPE  &kp BSPC  &mt LEFT_COMMAND LANGUAGE_2  &kp SPACE         &kp ENTER          &mt RIGHT_COMMAND LANGUAGE_1  &none  &none  &kp DELETE  &mo 3  &mo 2
+&none             &none          &none      &none       &none     &none                                             &none         &none  &none  &none       &none  &none
+&kp TAB           &kp SQT        &kp COMMA  &kp PERIOD  &kp P     &kp Y                                             &kp F         &kp G  &kp C  &kp R       &kp L  &kp SLASH
+&kp LEFT_CONTROL  &kp A          &kp O      &kp E       &kp U     &kp I        &none             &none              &kp D         &kp H  &kp T  &kp N       &kp S  &kp MINUS
+&kp LSHFT         &kp SEMICOLON  &kp Q      &kp J       &kp K     &kp X        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp B         &kp M  &kp W  &kp V       &kp Z  &lt 4 GRAVE
+&kp LEFT_ALT      &mo 4          &kp LGUI   &kp ESCAPE  &kp BSPC  &to_english  &kp SPACE         &kp ENTER          &to_japanese  &none  &none  &kp DELETE  &mo 3  &mo 2
             >;
         };
 
