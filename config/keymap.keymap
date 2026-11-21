@@ -11,7 +11,7 @@
         bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <29 28>;
-            layers = <2>;
+            layers = <24>;
         };
     };
 
@@ -54,7 +54,7 @@
         small: small {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp X &kp T &kp U &sl 5 &sl 23>;
+            bindings = <&kp X &kp T &kp U &sl 2 &sl 20>;
             label = "SMALL";
         };
 
@@ -124,7 +124,7 @@
         y_youon: y_youon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Y &sl 5 &sl 7>;
+            bindings = <&kp Y &sl 2 &sl 4>;
             label = "Y_YOUON";
         };
 
@@ -152,14 +152,14 @@
         ur: ur {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp U &kp R &sl 5>;
+            bindings = <&kp U &kp R &sl 2>;
             label = "UR";
         };
 
         to_ka: to_ka {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp K &sl 5 &sl 6>;
+            bindings = <&kp K &sl 2 &sl 3>;
             label = "TO_KA";
         };
 
@@ -194,21 +194,21 @@
         ar: ar {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp R &sl 5>;
+            bindings = <&kp A &kp R &sl 2>;
             label = "AR";
         };
 
         imas: imas {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp I &kp M &kp A &kp S &sl 5>;
+            bindings = <&kp I &kp M &kp A &kp S &sl 2>;
             label = "IMAS";
         };
 
         it: it {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp I &kp T &sl 5>;
+            bindings = <&kp I &kp T &sl 2>;
             label = "IT";
         };
 
@@ -229,7 +229,7 @@
         s_youon: s_youon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &sl 5>;
+            bindings = <&kp S &sl 2>;
             label = "S_YOUON";
         };
 
@@ -257,21 +257,21 @@
         or: or {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp O &kp R &sl 5>;
+            bindings = <&kp O &kp R &sl 2>;
             label = "OR";
         };
 
         itadak: itadak {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp BACKSPACE &kp I &kp T &kp A &kp D &kp A &kp K &sl 5>;
+            bindings = <&kp BACKSPACE &kp I &kp T &kp A &kp D &kp A &kp K &sl 2>;
             label = "ITADAK";
         };
 
         h_youon: h_youon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp H &sl 5>;
+            bindings = <&kp H &sl 2>;
             label = "H_YOUON";
         };
 
@@ -327,7 +327,7 @@
         anas: anas {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp N &kp A &kp S &sl 5>;
+            bindings = <&kp A &kp N &kp A &kp S &sl 2>;
             label = "ANAS";
         };
 
@@ -383,7 +383,7 @@
         as: as {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp S &sl 5>;
+            bindings = <&kp A &kp S &sl 2>;
             label = "AS";
         };
 
@@ -446,7 +446,7 @@
         asuk: asuk {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp S &kp U &kp K &sl 5>;
+            bindings = <&kp A &kp S &kp U &kp K &sl 2>;
             label = "ASUK";
         };
 
@@ -495,7 +495,7 @@
         akar: akar {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp K &kp A &kp R &sl 5>;
+            bindings = <&kp A &kp K &kp A &kp R &sl 2>;
             label = "AKAR";
         };
 
@@ -551,14 +551,14 @@
         ear: ear {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp A &kp R &sl 5>;
+            bindings = <&kp E &kp A &kp R &sl 2>;
             label = "EAR";
         };
 
         es: es {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp S &sl 5>;
+            bindings = <&kp E &kp S &sl 2>;
             label = "ES";
         };
 
@@ -670,112 +670,112 @@
         bs_xy: bs_xy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp BACKSPACE &kp X &kp Y &sl 5>;
+            bindings = <&kp BACKSPACE &kp X &kp Y &sl 2>;
             label = "BS_XY";
         };
 
         to_sa: to_sa {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &sl 5 &sl 8>;
+            bindings = <&kp S &sl 2 &sl 5>;
             label = "TO_SA";
         };
 
         to_ta: to_ta {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp T &sl 5 &sl 9>;
+            bindings = <&kp T &sl 2 &sl 6>;
             label = "TO_TA";
         };
 
         to_na: to_na {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N &sl 5 &sl 10>;
+            bindings = <&kp N &sl 2 &sl 7>;
             label = "TO_NA";
         };
 
         to_ma: to_ma {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp M &sl 5 &sl 12>;
+            bindings = <&kp M &sl 2 &sl 9>;
             label = "TO_MA";
         };
 
         to_ha: to_ha {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp H &sl 5 &sl 11>;
+            bindings = <&kp H &sl 2 &sl 8>;
             label = "TO_HA";
         };
 
         to_ya: to_ya {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Y &sl 5 &sl 13>;
+            bindings = <&kp Y &sl 2 &sl 10>;
             label = "TO_YA";
         };
 
         to_ra: to_ra {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp R &sl 5 &sl 14>;
+            bindings = <&kp R &sl 2 &sl 11>;
             label = "TO_RA";
         };
 
         to_wa: to_wa {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp W &sl 5 &sl 15>;
+            bindings = <&kp W &sl 2 &sl 12>;
             label = "TO_WA";
         };
 
         to_ga: to_ga {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &sl 5 &sl 17>;
+            bindings = <&kp G &sl 2 &sl 14>;
             label = "TO_GA";
         };
 
         to_za: to_za {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Z &sl 5 &sl 18>;
+            bindings = <&kp Z &sl 2 &sl 15>;
             label = "TO_ZA";
         };
 
         to_da: to_da {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp D &sl 5 &sl 19>;
+            bindings = <&kp D &sl 2 &sl 16>;
             label = "TO_DA";
         };
 
         to_ba: to_ba {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp B &sl 5 &sl 16>;
+            bindings = <&kp B &sl 2 &sl 13>;
             label = "TO_BA";
         };
 
         to_pa: to_pa {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp P &sl 5 &sl 20>;
+            bindings = <&kp P &sl 2 &sl 17>;
             label = "TO_PA";
         };
 
         to_fa: to_fa {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F &sl 5 &sl 21>;
+            bindings = <&kp F &sl 2 &sl 18>;
             label = "TO_FA";
         };
 
         to_va: to_va {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp V &sl 5 &sl 22>;
+            bindings = <&kp V &sl 2 &sl 19>;
             label = "TO_VA";
         };
 
@@ -820,11 +820,11 @@
 
         layer_0 {
             bindings = <
-&none             &none          &none      &none       &none     &none                                             &none         &none  &none  &none       &none  &none
-&kp TAB           &kp SQT        &kp COMMA  &kp PERIOD  &kp P     &kp Y                                             &kp F         &kp G  &kp C  &kp R       &kp L  &kp SLASH
-&kp LEFT_CONTROL  &kp A          &kp O      &kp E       &kp U     &kp I        &none             &none              &kp D         &kp H  &kp T  &kp N       &kp S  &kp MINUS
-&kp LSHFT         &kp SEMICOLON  &kp Q      &kp J       &kp K     &kp X        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp B         &kp M  &kp W  &kp V       &kp Z  &lt 4 GRAVE
-&kp LEFT_ALT      &mo 4          &kp LGUI   &kp ESCAPE  &kp BSPC  &to_english  &kp SPACE         &kp ENTER          &to_japanese  &none  &none  &kp DELETE  &mo 3  &mo 2
+&none             &none          &none      &none       &none     &none                                             &none         &none  &none  &none       &none   &none
+&kp TAB           &kp SQT        &kp COMMA  &kp PERIOD  &kp P     &kp Y                                             &kp F         &kp G  &kp C  &kp R       &kp L   &kp SLASH
+&kp LEFT_CONTROL  &kp A          &kp O      &kp E       &kp U     &kp I        &none             &none              &kp D         &kp H  &kp T  &kp N       &kp S   &kp MINUS
+&kp LSHFT         &kp SEMICOLON  &kp Q      &kp J       &kp K     &kp X        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp B         &kp M  &kp W  &kp V       &kp Z   &lt 26 GRAVE
+&kp LEFT_ALT      &mo 26         &kp LGUI   &kp ESCAPE  &kp BSPC  &to_english  &kp SPACE         &kp ENTER          &to_japanese  &none  &none  &kp DELETE  &mo 25  &mo 24
             >;
         };
 
@@ -832,39 +832,9 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &small  &to_va                  &to_ya  &to_ga  &to_ka  &to_ra  &to_pa  &trans
-&trans  &kp A   &kp O   &kp E   &kp U   &kp I   &trans  &trans  &to_da  &to_ha  &to_ta  &to_na  &to_sa  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to_da  &to_ha  &to_ta  &to_na  &to_sa  &trans
 &trans  &ann    &onn    &enn    &unn    &inn    &trans  &trans  &to_ba  &to_ma  &to_wa  &to_fa  &to_za  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_2 {
-            bindings = <
-&trans  &trans            &trans            &trans      &trans      &trans                      &trans         &trans             &trans           &trans        &trans           &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)     &kp LS(N7)         &kp LS(N8)       &kp LS(N9)    &kp LS(N0)       &trans
-&trans  &kp N1            &kp N2            &kp N3      &kp N4      &kp N5      &trans  &trans  &kp EQUAL      &kp LEFT_ARROW     &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp N6            &kp N7            &kp N8      &kp N9      &kp N0      &trans  &trans  &kp BACKSLASH  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE    &trans           &trans
-&trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &trans         &trans             &trans           &trans        &trans           &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans   &trans   &trans        &trans        &trans                      &trans            &trans     &trans         &trans          &trans      &trans
-&trans  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5                      &kp HOME          &kp PG_UP  &kp PAGE_DOWN  &kp END         &kp ESCAPE  &trans
-&trans  &kp F6   &kp F7   &kp F8        &kp F9        &kp F10     &trans  &trans  &kp LEFT          &kp DOWN   &kp UP_ARROW   &kp RIGHT       &kp TAB     &trans
-&trans  &kp F11  &kp F12  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &kp SINGLE_QUOTE  &kp DQT    &kp GRAVE      &kp TILDE       &kp PIPE    &trans
-&trans  &trans   &trans   &trans        &kp DELETE    &kp TAB     &trans  &trans  &trans            &trans     &trans         &bt BT_CLR_ALL  &trans      &trans
-            >;
-        };
-
-        layer_1 {
-            bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
             >;
         };
 
@@ -882,7 +852,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &ara    &y_youon  &yuu    &ur     &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ata    &sl 24    &oto    &sl 25  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ata    &sl 21    &oto    &sl 22  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &angae  &amo      &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
@@ -903,7 +873,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &imas     &it     &ur     &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ar     &y_youon  &yuu    &ase    &you      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 26  &sl 24    &sl 25  &trans  &orezore  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 23  &sl 21    &sl 22  &trans  &orezore  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans
             >;
         };
@@ -913,7 +883,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans    &trans   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &s_youon  &trans    &oki      &or      &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &oiu      &y_youon  &yuu      &osite   &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 26    &sl 24    &h_youon  &itadak  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 23    &sl 21    &h_youon  &itadak  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans   &trans  &trans
             >;
         };
@@ -923,7 +893,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans   &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &agara    &aka      &ituite  &ar     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ado      &y_youon  &yuu     &kp N   &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &akereba  &sl 24    &akute   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &akereba  &sl 21    &akute   &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans   &trans  &trans  &trans
             >;
         };
@@ -931,7 +901,7 @@
         gact10_ha {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &sl 25  &ur       &sl 24  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &sl 22  &ur       &sl 21  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &odo    &ito    &yuu    &y_youon  &you    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &anas   &trans  &trans  &trans    &ijou   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
@@ -942,7 +912,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans   &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans   &ono    &ar       &as     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ade      &trans   &sl 25  &trans    &sl 24  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ade      &trans   &sl 22  &trans    &sl 21  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ousiage  &bs_omo  &yu_    &y_youon  &you    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans  &trans    &trans  &trans
             >;
@@ -952,7 +922,7 @@
             bindings = <
 &trans  &trans  &trans  &trans     &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &bs_ei     &trans  &trans                  &bs_iu  &oko    &ama    &or     &ar     &trans
-&trans  &trans  &trans  &otte      &trans  &oi     &trans  &trans  &asuk   &trans  &trans  &trans  &sl 24  &trans
+&trans  &trans  &trans  &otte      &trans  &oi     &trans  &trans  &asuk   &trans  &trans  &trans  &sl 21  &trans
 &trans  &trans  &trans  &bs_iware  &trans  &asui   &trans  &trans  &ubi    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -962,7 +932,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &y_youon  &yuu    &trans  &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &are    &sl 24    &sl 25  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &are    &sl 21    &sl 22  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &eba    &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
@@ -972,7 +942,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &ho_    &trans  &trans  &trans                  &trans  &trans  &akar   &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 24  &atasi  &ar     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 21  &atasi  &ar     &trans  &trans
 &trans  &trans  &hon    &trans  &trans  &trans  &trans  &trans  &trans  &ho     &trans  &trans  &ho_    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -982,7 +952,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &eki    &ur       &ar     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 25  &trans    &sl 24  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 22  &trans    &sl 21  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &yuu    &y_youon  &you    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
             >;
@@ -992,7 +962,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &ur     &yuu    &y_youon  &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &oto    &trans    &sl 24  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &oto    &trans    &sl 21  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
             >;
@@ -1002,7 +972,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 26  &sl 24    &sl 25  &ur     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 23  &sl 21    &sl 22  &ur     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &aruwo  &y_youon  &yuu    &ar     &you    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
@@ -1011,7 +981,7 @@
         gact10_da {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &aga    &eki    &or       &sl 24  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &aga    &eki    &or       &sl 21  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ode      &eha    &ear    &y_youon  &es     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &h_youon  &emo    &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans
@@ -1022,7 +992,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &y_youon  &yuu    &ur     &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 24    &sl 25  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 21    &sl 22  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
@@ -1032,7 +1002,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans     &trans  &trans
 &trans  &trans  &o_     &trans  &yu_    &trans                  &trans  &trans  &trans  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &yu     &trans  &trans  &trans  &trans  &sl 24  &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &yu     &trans  &trans  &trans  &trans  &sl 21  &trans  &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &yun    &trans  &trans  &trans  &trans  &trans  &trans  &bs_onazi  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans
             >;
@@ -1085,6 +1055,36 @@
 &trans  &xx_ki A  &xx_ki O  &xx_ki E  &xx_ki U  &xx_ki I  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &trans            &trans            &trans      &trans      &trans                      &trans         &trans             &trans           &trans        &trans           &trans
+&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)     &kp LS(N7)         &kp LS(N8)       &kp LS(N9)    &kp LS(N0)       &trans
+&trans  &kp N1            &kp N2            &kp N3      &kp N4      &kp N5      &trans  &trans  &kp EQUAL      &kp LEFT_ARROW     &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &kp N6            &kp N7            &kp N8      &kp N9      &kp N0      &trans  &trans  &kp BACKSLASH  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE    &trans           &trans
+&trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &trans         &trans             &trans           &trans        &trans           &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans   &trans   &trans        &trans        &trans                      &trans            &trans     &trans         &trans          &trans      &trans
+&trans  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5                      &kp HOME          &kp PG_UP  &kp PAGE_DOWN  &kp END         &kp ESCAPE  &trans
+&trans  &kp F6   &kp F7   &kp F8        &kp F9        &kp F10     &trans  &trans  &kp LEFT          &kp DOWN   &kp UP_ARROW   &kp RIGHT       &kp TAB     &trans
+&trans  &kp F11  &kp F12  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &kp SINGLE_QUOTE  &kp DQT    &kp GRAVE      &kp TILDE       &kp PIPE    &trans
+&trans  &trans   &trans   &trans        &kp DELETE    &kp TAB     &trans  &trans  &trans            &trans     &trans         &bt BT_CLR_ALL  &trans      &trans
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
             >;
         };
     };
