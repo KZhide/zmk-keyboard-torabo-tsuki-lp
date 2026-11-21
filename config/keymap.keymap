@@ -54,7 +54,7 @@
         small: small {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp X &kp T &kp U &kp>;
+            bindings = <&kp X &kp T &kp U &sl 5 &sl 23>;
             label = "SMALL";
         };
 
@@ -470,6 +470,314 @@
             bindings = <&kp E &kp B &kp A>;
             label = "EBA";
         };
+
+        ho_: ho_ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp O &kp MINUS>;
+            label = "HO_";
+        };
+
+        atasi: atasi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp T &kp A &kp S &kp I>;
+            label = "ATASI";
+        };
+
+        ho: ho {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp O>;
+            label = "HO";
+        };
+
+        akar: akar {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp K &kp A &kp R &sl 5>;
+            label = "AKAR";
+        };
+
+        hon: hon {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp O &kp N>;
+            label = "HON";
+        };
+
+        eki: eki {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp K &kp I>;
+            label = "EKI";
+        };
+
+        aruwo: aruwo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp R &kp U &kp W &kp O>;
+            label = "ARUWO";
+        };
+
+        ode: ode {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp O &kp D &kp E>;
+            label = "ODE";
+        };
+
+        aga: aga {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp G &kp A>;
+            label = "AGA";
+        };
+
+        eha: eha {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp H &kp A>;
+            label = "EHA";
+        };
+
+        emo: emo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp M &kp O>;
+            label = "EMO";
+        };
+
+        ear: ear {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp A &kp R &sl 5>;
+            label = "EAR";
+        };
+
+        es: es {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp S &sl 5>;
+            label = "ES";
+        };
+
+        o_: o_ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp O &kp MINUS>;
+            label = "O_";
+        };
+
+        bs_onazi: bs_onazi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE &kp O &kp N &kp A &kp Z &kp I>;
+            label = "BS_ONAZI";
+        };
+
+        yun: yun {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp U &kp N>;
+            label = "YUN";
+        };
+
+        yu: yu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp U>;
+            label = "YU";
+        };
+
+        x_ta: ta {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp A>;
+            label = "TA";
+        };
+
+        x_ti: ti {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp I>;
+            label = "TI";
+        };
+
+        x_tu: tu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp U>;
+            label = "TU";
+        };
+
+        x_te: te {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp E>;
+            label = "TE";
+        };
+
+        x_to: to {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp O>;
+            label = "TO";
+        };
+
+        bs_xa: bs_xa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE &kp X &kp A>;
+            label = "BS_XA";
+        };
+
+        bs_xi: bs_xi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE &kp X &kp I>;
+            label = "BS_XI";
+        };
+
+        bs_xu: bs_xu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE &kp X &kp U>;
+            label = "BS_XU";
+        };
+
+        bs_xe: bs_xe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE &kp X &kp E>;
+            label = "BS_XE";
+        };
+
+        bs_xo: bs_xo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE &kp X &kp O>;
+            label = "BS_XO";
+        };
+
+        bs_xwa: bs_xwa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE &kp X &kp W &kp A>;
+            label = "BS_XWA";
+        };
+
+        bs_xy: bs_xy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE &kp X &kp Y &sl 5>;
+            label = "BS_XY";
+        };
+
+        to_sa: to_sa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &sl 5 &sl 8>;
+            label = "TO_SA";
+        };
+
+        to_ta: to_ta {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &sl 5 &sl 9>;
+            label = "TO_TA";
+        };
+
+        to_na: to_na {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &sl 5 &sl 10>;
+            label = "TO_NA";
+        };
+
+        to_ma: to_ma {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &sl 5 &sl 12>;
+            label = "TO_MA";
+        };
+
+        to_ha: to_ha {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &sl 5 &sl 11>;
+            label = "TO_HA";
+        };
+
+        to_ya: to_ya {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &sl 5 &sl 13>;
+            label = "TO_YA";
+        };
+
+        to_ra: to_ra {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &sl 5 &sl 14>;
+            label = "TO_RA";
+        };
+
+        to_wa: to_wa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &sl 5 &sl 15>;
+            label = "TO_WA";
+        };
+
+        to_ga: to_ga {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &sl 5 &sl 17>;
+            label = "TO_GA";
+        };
+
+        to_za: to_za {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &sl 5 &sl 18>;
+            label = "TO_ZA";
+        };
+
+        to_da: to_da {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &sl 5 &sl 19>;
+            label = "TO_DA";
+        };
+
+        to_ba: to_ba {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &sl 5 &sl 16>;
+            label = "TO_BA";
+        };
+
+        to_pa: to_pa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &sl 5 &sl 20>;
+            label = "TO_PA";
+        };
+
+        to_fa: to_fa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &sl 5 &sl 21>;
+            label = "TO_FA";
+        };
+
+        to_va: to_va {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &sl 5 &sl 22>;
+            label = "TO_VA";
+        };
     };
 
     keymap {
@@ -488,9 +796,9 @@
         gact10_base {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &kp Y   &kp G   &to_ka  &kp R   &kp P   &trans
-&trans  &kp A   &kp O   &kp E   &kp U   &kp I   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &ann    &onn    &enn    &unn    &inn    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &small  &to_va                  &to_ya  &to_ga  &to_ka  &to_ra  &to_pa  &trans
+&trans  &kp A   &kp O   &kp E   &kp U   &kp I   &trans  &trans  &to_da  &to_ha  &x_ta   &to_na  &to_sa  &trans
+&trans  &ann    &onn    &enn    &unn    &inn    &trans  &trans  &to_ba  &to_ma  &to_wa  &to_fa  &to_za  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
@@ -628,10 +936,90 @@
         gact10_wa {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &ho_    &trans  &trans  &trans                  &trans  &trans  &akar   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &atasi  &ar     &trans  &trans
+&trans  &trans  &hon    &trans  &trans  &trans  &trans  &trans  &trans  &ho     &trans  &trans  &ho_    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        gact10_ba {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &eki    &ur       &ar     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &yuu    &y_youon  &you    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+            >;
+        };
+
+        gact10_ga {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &ur     &yuu    &y_youon  &you    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &oto    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+            >;
+        };
+
+        gact10_za {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &ur     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &aruwo  &y_youon  &yuu    &ar     &you    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+            >;
+        };
+
+        gact10_da {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &aga    &eki    &or       &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ode      &eha    &ear    &y_youon  &es     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &h_youon  &emo    &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans
+            >;
+        };
+
+        gact10_pa {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &eki    &ur       &ar     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &yuu    &y_youon  &you    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+            >;
+        };
+
+        gact10_fa {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &o_     &trans  &yu_    &trans                  &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &yu     &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &yun    &trans  &trans  &trans  &trans  &trans  &trans  &bs_onazi  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans
+            >;
+        };
+
+        gact10_va {
+            bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &o_     &trans  &yu_    &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &yu     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &yun    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        gact10_small {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans   &trans  &trans  &trans
+&trans  &x_ta   &x_to   &x_te   &x_tu   &x_ti                   &bs_xy  &trans  &trans   &trans  &trans  &trans
+&trans  &bs_xa  &bs_xo  &bs_xe  &bs_xu  &bs_xi  &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bs_xwa  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans
             >;
         };
     };
