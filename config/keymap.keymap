@@ -19,7 +19,7 @@
         to_small: small {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp X &kp T &kp U &to 20>;
+            bindings = <&kp X &kp T &kp U &to 1 &tog 20>;
             label = "SMALL";
         };
 
@@ -89,7 +89,7 @@
         y_youon: y_youon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Y &to 4>;
+            bindings = <&kp Y &to 1 &tog 2 &tog 4>;
             label = "Y_YOUON";
         };
 
@@ -117,14 +117,14 @@
         ur: ur {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp U &kp R &to 11>;
+            bindings = <&kp U &kp R &to 1 &tog 2 &tog 11>;
             label = "UR";
         };
 
         to_ka: to_ka {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp K &to 3>;
+            bindings = <&kp K &to 1 &tog 2 &tog 3>;
             label = "TO_KA";
         };
 
@@ -159,21 +159,21 @@
         ar: ar {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp R &to 11>;
+            bindings = <&kp A &kp R &to 1 &tog 2 &tog 11>;
             label = "AR";
         };
 
         imas: imas {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp I &kp M &kp A &kp S &to 5>;
+            bindings = <&kp I &kp M &kp A &kp S &to 1 &tog 2 &to 5>;
             label = "IMAS";
         };
 
         it: it {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp I &kp T &to 6>;
+            bindings = <&kp I &kp T &to 1 &tog 2 &tog 6>;
             label = "IT";
         };
 
@@ -194,7 +194,7 @@
         s_youon: s_youon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &to 4>;
+            bindings = <&kp S &to 1 &tog 2 &to 4>;
             label = "S_YOUON";
         };
 
@@ -222,21 +222,21 @@
         or: or {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp O &kp R &to 11>;
+            bindings = <&kp O &kp R &to 1 &tog 2 &tog 11>;
             label = "OR";
         };
 
         itadak: itadak {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp BACKSPACE &kp I &kp T &kp A &kp D &kp A &kp K &to 3>;
+            bindings = <&kp BACKSPACE &kp I &kp T &kp A &kp D &kp A &kp K &to 1 &tog 2 &tog 3>;
             label = "ITADAK";
         };
 
         h_youon: h_youon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp H &to 4>;
+            bindings = <&kp H &to 1 &tog 2 &tog 4>;
             label = "H_YOUON";
         };
 
@@ -292,7 +292,7 @@
         anas: anas {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp N &kp A &kp S &to 5>;
+            bindings = <&kp A &kp N &kp A &kp S &to 1 &tog 2 &tog 5>;
             label = "ANAS";
         };
 
@@ -348,7 +348,7 @@
         as: as {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp S &to 5>;
+            bindings = <&kp A &kp S &to 1 &tog 2 &tog 5>;
             label = "AS";
         };
 
@@ -411,7 +411,7 @@
         asuk: asuk {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp S &kp U &kp K &to 3>;
+            bindings = <&kp A &kp S &kp U &kp K &to 1 &tog 2 &tog 3>;
             label = "ASUK";
         };
 
@@ -460,7 +460,7 @@
         akar: akar {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp K &kp A &kp R &to 11>;
+            bindings = <&kp A &kp K &kp A &kp R &to 1 &tog 2 &tog 11>;
             label = "AKAR";
         };
 
@@ -516,14 +516,14 @@
         ear: ear {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp A &kp R &to 11>;
+            bindings = <&kp E &kp A &kp R &to 1 &tog 2 &tog 11>;
             label = "EAR";
         };
 
         es: es {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp S &to 5>;
+            bindings = <&kp E &kp S &to 1 &tog 2 &tog 5>;
             label = "ES";
         };
 
@@ -579,14 +579,14 @@
         bs_xy: bs_xy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp BACKSPACE &kp X &kp Y &to 2>;
+            bindings = <&kp BACKSPACE &kp X &kp Y &to 1 &to 2>;
             label = "BS_XY";
         };
 
         to_with: to_sa {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
-            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &to 1 &tog 2 &macro_param_2to1 &tog MACRO_PLACEHOLDER>;
             label = "TO_SA";
         };
 
@@ -607,21 +607,21 @@
         xx_ku: xx_ku {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp K &kp U>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp K &kp U &to 1>;
             label = "XX_KU";
         };
 
         xx_ki: xx_ki {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp K &kp I>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp K &kp I &to 1>;
             label = "XX_KI";
         };
 
         xx_tu: xx_tu {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp T &kp U>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp T &kp U &to 1>;
             label = "XX_TU";
         };
 
