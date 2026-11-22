@@ -21,6 +21,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 20 &kp X &kp T &kp U>;
             label = "SMALL";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ai: ai {
@@ -28,6 +30,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp I>;
             label = "AI";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ou: ou {
@@ -35,6 +39,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp U>;
             label = "OU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ei: ei {
@@ -42,6 +48,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp E &kp I>;
             label = "EI";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         uu: uu {
@@ -49,6 +57,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp U &kp U>;
             label = "UU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ui: ui {
@@ -56,6 +66,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp U &kp I>;
             label = "UI";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ara: ara {
@@ -63,6 +75,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp R &kp A>;
             label = "ARA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ata: ata {
@@ -70,6 +84,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp T &kp A>;
             label = "ATA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         angae: angae {
@@ -77,6 +93,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp N &kp G &kp A &kp E>;
             label = "ANGAE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         amo: amo {
@@ -84,6 +102,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp M &kp O>;
             label = "AMO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         y_youon: y_youon {
@@ -91,6 +111,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 4 &kp Y>;
             label = "Y_YOUON";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         oto: oto {
@@ -98,6 +120,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp T &kp O>;
             label = "OTO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         yuu: yuu {
@@ -105,6 +129,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp Y &kp U &kp U>;
             label = "YUU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         you: you {
@@ -112,6 +138,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp Y &kp O &kp U>;
             label = "YOU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ur: ur {
@@ -119,6 +147,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 11 &kp U &kp R>;
             label = "UR";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         uku: uku {
@@ -126,6 +156,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp U &kp K &kp U>;
             label = "UKU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         utu: utu {
@@ -133,6 +165,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp U &kp T &kp U>;
             label = "UTU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         oku: otu {
@@ -140,6 +174,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp K &kp U>;
             label = "OTU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         aku: aku {
@@ -147,6 +183,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp K &kp U>;
             label = "AKU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ar: ar {
@@ -154,6 +192,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 11 &kp A &kp R>;
             label = "AR";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         imas: imas {
@@ -161,6 +201,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &to 5 &kp I &kp M &kp A &kp S>;
             label = "IMAS";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         it: it {
@@ -168,6 +210,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 6 &kp I &kp T>;
             label = "IT";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         orezore: orezore {
@@ -175,6 +219,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp R &kp E &kp Z &kp O &kp R &kp E>;
             label = "OREZORE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ase: ase {
@@ -182,6 +228,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp S &kp E>;
             label = "ASE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         s_youon: s_youon {
@@ -189,6 +237,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &to 4 &kp S>;
             label = "S_YOUON";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         oiu: oiu {
@@ -196,6 +246,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp I &kp U>;
             label = "OIU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         oki: oki {
@@ -203,6 +255,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp K &kp I>;
             label = "OKI";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         osite: osite {
@@ -210,6 +264,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp S &kp I &kp T &kp E>;
             label = "OSITE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         or: or {
@@ -217,6 +273,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 11 &kp O &kp R>;
             label = "OR";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         itadak: itadak {
@@ -224,6 +282,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 3 &kp BACKSPACE &kp I &kp T &kp A &kp D &kp A &kp K>;
             label = "ITADAK";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         h_youon: h_youon {
@@ -231,6 +291,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 4 &kp H>;
             label = "H_YOUON";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         agara: agara {
@@ -238,6 +300,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp G &kp A &kp R &kp A>;
             label = "AGARA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ado: ado {
@@ -245,6 +309,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp D &kp O>;
             label = "ADO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         akereba: akereba {
@@ -252,6 +318,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp K &kp E &kp R &kp E &kp B &kp A>;
             label = "AKEREBA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         aka: aka {
@@ -259,6 +327,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp K &kp A>;
             label = "AKA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ituite: ituite {
@@ -266,6 +336,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp I &kp T &kp U &kp I &kp T &kp E>;
             label = "ITUITE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         akute: akute {
@@ -273,6 +345,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp K &kp U &kp T &kp E>;
             label = "AKUTE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         odo: odo {
@@ -280,6 +354,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp D &kp O>;
             label = "ODO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         anas: anas {
@@ -287,6 +363,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 5 &kp A &kp N &kp A &kp S>;
             label = "ANAS";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ito: ito {
@@ -294,6 +372,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp I &kp T &kp O>;
             label = "ITO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ijou: ijou {
@@ -301,6 +381,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp I &kp J &kp O &kp U>;
             label = "IJOU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ade: ade {
@@ -308,6 +390,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp D &kp E>;
             label = "ADE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ousiage: ousiage {
@@ -315,6 +399,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp U &kp S &kp I &kp A &kp G &kp E>;
             label = "OUSIAGE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         bs_omo: omo {
@@ -322,6 +408,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp BACKSPACE &kp O &kp M &kp O>;
             label = "OMO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ono: ono {
@@ -329,6 +417,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp N &kp O>;
             label = "ONO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         yu_: yu_ {
@@ -336,6 +426,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp Y &kp U &kp MINUS>;
             label = "YU_";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         as: as {
@@ -343,6 +435,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 5 &kp A &kp S>;
             label = "AS";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         otte: otte {
@@ -350,6 +444,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp T &kp T &kp E>;
             label = "OTTE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         bs_ei: bs_ei {
@@ -357,6 +453,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp BACKSPACE &kp E &kp I>;
             label = "BS_EI";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         bs_iware: bs_iware {
@@ -364,6 +462,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp BACKSPACE &kp I &kp W &kp A &kp R &kp E>;
             label = "BS_IWARE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         oi: oi {
@@ -371,6 +471,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp I>;
             label = "OI";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         asui: asui {
@@ -378,6 +480,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp S &kp U &kp I>;
             label = "ASUI";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         bs_iu: bs_iu {
@@ -385,6 +489,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp BACKSPACE &kp I &kp U>;
             label = "BS_IU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         oko: oko {
@@ -392,6 +498,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp K &kp O>;
             label = "OKO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ama: ama {
@@ -399,6 +507,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp M &kp A>;
             label = "AMA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         asuk: asuk {
@@ -406,6 +516,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 3 &kp A &kp S &kp U &kp K>;
             label = "ASUK";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ubi: ubi {
@@ -413,6 +525,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp U &kp B &kp I>;
             label = "UBI";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         are: are {
@@ -420,6 +534,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp R &kp E>;
             label = "ARE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         eba: eba {
@@ -427,6 +543,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp E &kp B &kp A>;
             label = "EBA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ho_: ho_ {
@@ -434,6 +552,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp H &kp O &kp MINUS>;
             label = "HO_";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         atasi: atasi {
@@ -441,6 +561,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp T &kp A &kp S &kp I>;
             label = "ATASI";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ho: ho {
@@ -448,6 +570,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp H &kp O>;
             label = "HO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         akar: akar {
@@ -455,6 +579,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 11 &kp A &kp K &kp A &kp R>;
             label = "AKAR";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         hon: hon {
@@ -462,6 +588,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp H &kp O &kp N &kp N>;
             label = "HON";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         eki: eki {
@@ -469,6 +597,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp E &kp K &kp I>;
             label = "EKI";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         aruwo: aruwo {
@@ -476,6 +606,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp R &kp U &kp W &kp O>;
             label = "ARUWO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         bs_node: ode {
@@ -483,6 +615,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp BACKSPACE &kp N &kp O &kp D &kp E>;
             label = "ODE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         aga: aga {
@@ -490,6 +624,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp A &kp G &kp A>;
             label = "AGA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         eha: eha {
@@ -497,6 +633,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp E &kp H &kp A>;
             label = "EHA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         emo: emo {
@@ -504,6 +642,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp E &kp M &kp O>;
             label = "EMO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         ear: ear {
@@ -511,6 +651,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 11 &kp E &kp A &kp R>;
             label = "EAR";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         es: es {
@@ -518,6 +660,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &tog 2 &tog 5 &kp E &kp S>;
             label = "ES";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         o_: o_ {
@@ -525,6 +669,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp O &kp MINUS>;
             label = "O_";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         bs_onazi: bs_onazi {
@@ -532,6 +678,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp BACKSPACE &kp O &kp N &kp A &kp Z &kp I>;
             label = "BS_ONAZI";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         yun: yun {
@@ -539,6 +687,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp Y &kp U &kp N &kp N>;
             label = "YUN";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         yu: yu {
@@ -546,6 +696,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp Y &kp U>;
             label = "YU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         x_txx: ta {
@@ -553,6 +705,8 @@
             #binding-cells = <1>;
             bindings = <&to 1 &kp T &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         bs_x_xx: bs_xa {
@@ -560,6 +714,8 @@
             #binding-cells = <1>;
             bindings = <&to 1 &kp BACKSPACE &kp X &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "BS_XA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         bs_xwa: bs_xwa {
@@ -567,6 +723,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp BACKSPACE &kp X &kp W &kp A>;
             label = "BS_XWA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         bs_xy: bs_xy {
@@ -574,6 +732,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &to 2 &kp BACKSPACE &kp X &kp Y>;
             label = "BS_XY";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         to_with: to_sa {
@@ -581,6 +741,8 @@
             #binding-cells = <2>;
             bindings = <&to 1 &tog 2 &macro_param_1to1 &tog MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_SA";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         to_japanese: to_japanese {
@@ -588,6 +750,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &kp LANGUAGE_1>;
             label = "TO_JAPANESE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         to_english: to_english {
@@ -595,6 +759,8 @@
             #binding-cells = <0>;
             bindings = <&to 0 &kp LANGUAGE_2>;
             label = "TO_ENGLISH";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         xx_ku: xx_ku {
@@ -602,6 +768,8 @@
             #binding-cells = <1>;
             bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp K &kp U>;
             label = "XX_KU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         xx_ki: xx_ki {
@@ -609,6 +777,8 @@
             #binding-cells = <1>;
             bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp K &kp I>;
             label = "XX_KI";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         xx_tu: xx_tu {
@@ -616,6 +786,8 @@
             #binding-cells = <1>;
             bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp T &kp U>;
             label = "XX_TU";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         single_vowel: single_vowel {
@@ -623,6 +795,8 @@
             #binding-cells = <1>;
             bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "SINGLE_VOWEL";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         nn_vowel: nn_vowel {
@@ -630,6 +804,8 @@
             #binding-cells = <1>;
             bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp N &kp N>;
             label = "NN_VOWEL";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
     };
 
