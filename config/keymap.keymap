@@ -757,7 +757,7 @@
         to_english: to_english {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 24 &kp LANGUAGE_2>;
+            bindings = <&to 23 &kp LANGUAGE_2>;
             label = "TO_ENGLISH";
             wait-ms = <0>;
             tap-ms = <0>;
