@@ -820,7 +820,13 @@
         mod_with_mo: new_macro {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&mo 23 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            bindings =
+                <&macro_press>,
+                <&mo 23 &macro_param_1to1 &kp MACRO_PLACEHOLDER>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 23 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+
             label = "NEW_MACRO";
         };
     };
