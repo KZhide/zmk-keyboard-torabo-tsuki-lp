@@ -13,6 +13,16 @@
             key-positions = <29 28>;
             layers = <25>;
         };
+
+        lpar {
+            bindings = <&kp LPAR>;
+            key-positions = <28 16>;
+        };
+
+        rpar {
+            bindings = <&kp RPAR>;
+            key-positions = <19 33>;
+        };
     };
 
     macros {
@@ -811,7 +821,7 @@
         escape_ime: escape_ime {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ESCAPE &kp LANGUAGE_2 &to 24>;
+            bindings = <&kp ESCAPE &kp LANGUAGE_2 &to 23>;
             label = "ESCAPE_IME";
             wait-ms = <0>;
             tap-ms = <0>;
