@@ -11,7 +11,7 @@
         bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <29 28>;
-            layers = <24>;
+            layers = <25>;
         };
     };
 
@@ -19,7 +19,7 @@
         to_small: small {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 20 &kp X &kp T &kp U>;
+            bindings = <&to 0 &tog 19 &kp X &kp T &kp U>;
             label = "SMALL";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -28,7 +28,7 @@
         ai: ai {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp I>;
+            bindings = <&to 0 &kp A &kp I>;
             label = "AI";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -37,7 +37,7 @@
         ou: ou {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp U>;
+            bindings = <&to 0 &kp O &kp U>;
             label = "OU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -46,7 +46,7 @@
         ei: ei {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp E &kp I>;
+            bindings = <&to 0 &kp E &kp I>;
             label = "EI";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -55,7 +55,7 @@
         uu: uu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp U &kp U>;
+            bindings = <&to 0 &kp U &kp U>;
             label = "UU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -64,7 +64,7 @@
         ui: ui {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp U &kp I>;
+            bindings = <&to 0 &kp U &kp I>;
             label = "UI";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -73,7 +73,7 @@
         ara: ara {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp R &kp A>;
+            bindings = <&to 0 &kp A &kp R &kp A>;
             label = "ARA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -82,7 +82,7 @@
         ata: ata {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp T &kp A>;
+            bindings = <&to 0 &kp A &kp T &kp A>;
             label = "ATA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -91,7 +91,7 @@
         angae: angae {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp N &kp G &kp A &kp E>;
+            bindings = <&to 0 &kp A &kp N &kp G &kp A &kp E>;
             label = "ANGAE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -100,7 +100,7 @@
         amo: amo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp M &kp O>;
+            bindings = <&to 0 &kp A &kp M &kp O>;
             label = "AMO";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -109,7 +109,7 @@
         y_youon: y_youon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 4 &kp Y>;
+            bindings = <&to 0 &tog 1 &tog 3 &kp Y>;
             label = "Y_YOUON";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -118,7 +118,7 @@
         oto: oto {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp T &kp O>;
+            bindings = <&to 0 &kp O &kp T &kp O>;
             label = "OTO";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -127,7 +127,7 @@
         yuu: yuu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp Y &kp U &kp U>;
+            bindings = <&to 0 &kp Y &kp U &kp U>;
             label = "YUU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -136,7 +136,7 @@
         you: you {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp Y &kp O &kp U>;
+            bindings = <&to 0 &kp Y &kp O &kp U>;
             label = "YOU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -145,7 +145,7 @@
         ur: ur {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 11 &kp U &kp R>;
+            bindings = <&to 0 &tog 1 &tog 10 &kp U &kp R>;
             label = "UR";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -154,7 +154,7 @@
         uku: uku {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp U &kp K &kp U>;
+            bindings = <&to 0 &kp U &kp K &kp U>;
             label = "UKU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -163,7 +163,7 @@
         utu: utu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp U &kp T &kp U>;
+            bindings = <&to 0 &kp U &kp T &kp U>;
             label = "UTU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -172,7 +172,7 @@
         oku: otu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp K &kp U>;
+            bindings = <&to 0 &kp O &kp K &kp U>;
             label = "OTU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -181,7 +181,7 @@
         aku: aku {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp K &kp U>;
+            bindings = <&to 0 &kp A &kp K &kp U>;
             label = "AKU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -190,7 +190,7 @@
         ar: ar {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 11 &kp A &kp R>;
+            bindings = <&to 0 &tog 1 &tog 10 &kp A &kp R>;
             label = "AR";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -199,7 +199,7 @@
         imas: imas {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &to 5 &kp I &kp M &kp A &kp S>;
+            bindings = <&to 0 &tog 1 &to 4 &kp I &kp M &kp A &kp S>;
             label = "IMAS";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -208,7 +208,7 @@
         it: it {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 6 &kp I &kp T>;
+            bindings = <&to 0 &tog 1 &tog 5 &kp I &kp T>;
             label = "IT";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -217,7 +217,7 @@
         orezore: orezore {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp R &kp E &kp Z &kp O &kp R &kp E>;
+            bindings = <&to 0 &kp O &kp R &kp E &kp Z &kp O &kp R &kp E>;
             label = "OREZORE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -226,7 +226,7 @@
         ase: ase {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp S &kp E>;
+            bindings = <&to 0 &kp A &kp S &kp E>;
             label = "ASE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -235,7 +235,7 @@
         s_youon: s_youon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &to 4 &kp S>;
+            bindings = <&to 0 &tog 1 &to 3 &kp S>;
             label = "S_YOUON";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -244,7 +244,7 @@
         oiu: oiu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp I &kp U>;
+            bindings = <&to 0 &kp O &kp I &kp U>;
             label = "OIU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -253,7 +253,7 @@
         oki: oki {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp K &kp I>;
+            bindings = <&to 0 &kp O &kp K &kp I>;
             label = "OKI";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -262,7 +262,7 @@
         osite: osite {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp S &kp I &kp T &kp E>;
+            bindings = <&to 0 &kp O &kp S &kp I &kp T &kp E>;
             label = "OSITE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -271,7 +271,7 @@
         or: or {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 11 &kp O &kp R>;
+            bindings = <&to 0 &tog 1 &tog 10 &kp O &kp R>;
             label = "OR";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -280,7 +280,7 @@
         itadak: itadak {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 3 &kp BACKSPACE &kp I &kp T &kp A &kp D &kp A &kp K>;
+            bindings = <&to 0 &tog 1 &tog 2 &kp BACKSPACE &kp I &kp T &kp A &kp D &kp A &kp K>;
             label = "ITADAK";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -289,7 +289,7 @@
         h_youon: h_youon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 4 &kp H>;
+            bindings = <&to 0 &tog 1 &tog 3 &kp H>;
             label = "H_YOUON";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -298,7 +298,7 @@
         agara: agara {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp G &kp A &kp R &kp A>;
+            bindings = <&to 0 &kp A &kp G &kp A &kp R &kp A>;
             label = "AGARA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -307,7 +307,7 @@
         ado: ado {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp D &kp O>;
+            bindings = <&to 0 &kp A &kp D &kp O>;
             label = "ADO";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -316,7 +316,7 @@
         akereba: akereba {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp K &kp E &kp R &kp E &kp B &kp A>;
+            bindings = <&to 0 &kp A &kp K &kp E &kp R &kp E &kp B &kp A>;
             label = "AKEREBA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -325,7 +325,7 @@
         aka: aka {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp K &kp A>;
+            bindings = <&to 0 &kp A &kp K &kp A>;
             label = "AKA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -334,7 +334,7 @@
         ituite: ituite {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp I &kp T &kp U &kp I &kp T &kp E>;
+            bindings = <&to 0 &kp I &kp T &kp U &kp I &kp T &kp E>;
             label = "ITUITE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -343,7 +343,7 @@
         akute: akute {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp K &kp U &kp T &kp E>;
+            bindings = <&to 0 &kp A &kp K &kp U &kp T &kp E>;
             label = "AKUTE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -352,7 +352,7 @@
         odo: odo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp D &kp O>;
+            bindings = <&to 0 &kp O &kp D &kp O>;
             label = "ODO";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -361,7 +361,7 @@
         anas: anas {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 5 &kp A &kp N &kp A &kp S>;
+            bindings = <&to 0 &tog 1 &tog 4 &kp A &kp N &kp A &kp S>;
             label = "ANAS";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -370,7 +370,7 @@
         ito: ito {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp I &kp T &kp O>;
+            bindings = <&to 0 &kp I &kp T &kp O>;
             label = "ITO";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -379,7 +379,7 @@
         ijou: ijou {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp I &kp J &kp O &kp U>;
+            bindings = <&to 0 &kp I &kp J &kp O &kp U>;
             label = "IJOU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -388,7 +388,7 @@
         ade: ade {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp D &kp E>;
+            bindings = <&to 0 &kp A &kp D &kp E>;
             label = "ADE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -397,7 +397,7 @@
         ousiage: ousiage {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp U &kp S &kp I &kp A &kp G &kp E>;
+            bindings = <&to 0 &kp O &kp U &kp S &kp I &kp A &kp G &kp E>;
             label = "OUSIAGE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -406,7 +406,7 @@
         bs_omo: omo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp BACKSPACE &kp O &kp M &kp O>;
+            bindings = <&to 0 &kp BACKSPACE &kp O &kp M &kp O>;
             label = "OMO";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -415,7 +415,7 @@
         ono: ono {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp N &kp O>;
+            bindings = <&to 0 &kp O &kp N &kp O>;
             label = "ONO";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -424,7 +424,7 @@
         yu_: yu_ {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp Y &kp U &kp MINUS>;
+            bindings = <&to 0 &kp Y &kp U &kp MINUS>;
             label = "YU_";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -433,7 +433,7 @@
         as: as {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 5 &kp A &kp S>;
+            bindings = <&to 0 &tog 1 &tog 4 &kp A &kp S>;
             label = "AS";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -442,7 +442,7 @@
         otte: otte {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp T &kp T &kp E>;
+            bindings = <&to 0 &kp O &kp T &kp T &kp E>;
             label = "OTTE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -451,7 +451,7 @@
         bs_ei: bs_ei {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp BACKSPACE &kp E &kp I>;
+            bindings = <&to 0 &kp BACKSPACE &kp E &kp I>;
             label = "BS_EI";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -460,7 +460,7 @@
         bs_iware: bs_iware {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp BACKSPACE &kp I &kp W &kp A &kp R &kp E>;
+            bindings = <&to 0 &kp BACKSPACE &kp I &kp W &kp A &kp R &kp E>;
             label = "BS_IWARE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -469,7 +469,7 @@
         oi: oi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp I>;
+            bindings = <&to 0 &kp O &kp I>;
             label = "OI";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -478,7 +478,7 @@
         asui: asui {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp S &kp U &kp I>;
+            bindings = <&to 0 &kp A &kp S &kp U &kp I>;
             label = "ASUI";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -487,7 +487,7 @@
         bs_iu: bs_iu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp BACKSPACE &kp I &kp U>;
+            bindings = <&to 0 &kp BACKSPACE &kp I &kp U>;
             label = "BS_IU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -496,7 +496,7 @@
         oko: oko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp K &kp O>;
+            bindings = <&to 0 &kp O &kp K &kp O>;
             label = "OKO";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -505,7 +505,7 @@
         ama: ama {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp M &kp A>;
+            bindings = <&to 0 &kp A &kp M &kp A>;
             label = "AMA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -514,7 +514,7 @@
         asuk: asuk {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 3 &kp A &kp S &kp U &kp K>;
+            bindings = <&to 0 &tog 1 &tog 2 &kp A &kp S &kp U &kp K>;
             label = "ASUK";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -523,7 +523,7 @@
         ubi: ubi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp U &kp B &kp I>;
+            bindings = <&to 0 &kp U &kp B &kp I>;
             label = "UBI";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -532,7 +532,7 @@
         are: are {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp R &kp E>;
+            bindings = <&to 0 &kp A &kp R &kp E>;
             label = "ARE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -541,7 +541,7 @@
         eba: eba {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp E &kp B &kp A>;
+            bindings = <&to 0 &kp E &kp B &kp A>;
             label = "EBA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -550,7 +550,7 @@
         ho_: ho_ {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp H &kp O &kp MINUS>;
+            bindings = <&to 0 &kp H &kp O &kp MINUS>;
             label = "HO_";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -559,7 +559,7 @@
         atasi: atasi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp T &kp A &kp S &kp I>;
+            bindings = <&to 0 &kp A &kp T &kp A &kp S &kp I>;
             label = "ATASI";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -568,7 +568,7 @@
         ho: ho {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp H &kp O>;
+            bindings = <&to 0 &kp H &kp O>;
             label = "HO";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -577,7 +577,7 @@
         akar: akar {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 11 &kp A &kp K &kp A &kp R>;
+            bindings = <&to 0 &tog 1 &tog 10 &kp A &kp K &kp A &kp R>;
             label = "AKAR";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -586,7 +586,7 @@
         hon: hon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp H &kp O &kp N &kp N>;
+            bindings = <&to 0 &kp H &kp O &kp N &kp N>;
             label = "HON";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -595,7 +595,7 @@
         eki: eki {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp E &kp K &kp I>;
+            bindings = <&to 0 &kp E &kp K &kp I>;
             label = "EKI";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -604,7 +604,7 @@
         aruwo: aruwo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp R &kp U &kp W &kp O>;
+            bindings = <&to 0 &kp A &kp R &kp U &kp W &kp O>;
             label = "ARUWO";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -613,7 +613,7 @@
         bs_node: ode {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp BACKSPACE &kp N &kp O &kp D &kp E>;
+            bindings = <&to 0 &kp BACKSPACE &kp N &kp O &kp D &kp E>;
             label = "ODE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -622,7 +622,7 @@
         aga: aga {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp A &kp G &kp A>;
+            bindings = <&to 0 &kp A &kp G &kp A>;
             label = "AGA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -631,7 +631,7 @@
         eha: eha {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp E &kp H &kp A>;
+            bindings = <&to 0 &kp E &kp H &kp A>;
             label = "EHA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -640,7 +640,7 @@
         emo: emo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp E &kp M &kp O>;
+            bindings = <&to 0 &kp E &kp M &kp O>;
             label = "EMO";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -649,7 +649,7 @@
         ear: ear {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 11 &kp E &kp A &kp R>;
+            bindings = <&to 0 &tog 1 &tog 10 &kp E &kp A &kp R>;
             label = "EAR";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -658,7 +658,7 @@
         es: es {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &tog 2 &tog 5 &kp E &kp S>;
+            bindings = <&to 0 &tog 1 &tog 4 &kp E &kp S>;
             label = "ES";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -667,7 +667,7 @@
         o_: o_ {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp O &kp MINUS>;
+            bindings = <&to 0 &kp O &kp MINUS>;
             label = "O_";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -676,7 +676,7 @@
         bs_onazi: bs_onazi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp BACKSPACE &kp O &kp N &kp A &kp Z &kp I>;
+            bindings = <&to 0 &kp BACKSPACE &kp O &kp N &kp A &kp Z &kp I>;
             label = "BS_ONAZI";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -685,7 +685,7 @@
         yun: yun {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp Y &kp U &kp N &kp N>;
+            bindings = <&to 0 &kp Y &kp U &kp N &kp N>;
             label = "YUN";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -694,7 +694,7 @@
         yu: yu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp Y &kp U>;
+            bindings = <&to 0 &kp Y &kp U>;
             label = "YU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -703,7 +703,7 @@
         x_txx: ta {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 1 &kp T &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            bindings = <&to 0 &kp T &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -712,7 +712,7 @@
         bs_x_xx: bs_xa {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 1 &kp BACKSPACE &kp X &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            bindings = <&to 0 &kp BACKSPACE &kp X &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "BS_XA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -721,7 +721,7 @@
         bs_xwa: bs_xwa {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp BACKSPACE &kp X &kp W &kp A>;
+            bindings = <&to 0 &kp BACKSPACE &kp X &kp W &kp A>;
             label = "BS_XWA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -730,7 +730,7 @@
         bs_xy: bs_xy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &to 2 &kp BACKSPACE &kp X &kp Y>;
+            bindings = <&to 0 &to 1 &kp BACKSPACE &kp X &kp Y>;
             label = "BS_XY";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -739,7 +739,7 @@
         to_with: to_sa {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
-            bindings = <&to 1 &tog 2 &macro_param_1to1 &tog MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER>;
+            bindings = <&to 0 &tog 1 &macro_param_1to1 &tog MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_SA";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -748,7 +748,7 @@
         to_japanese: to_japanese {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp LANGUAGE_1>;
+            bindings = <&to 0 &kp LANGUAGE_1>;
             label = "TO_JAPANESE";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -757,7 +757,7 @@
         to_english: to_english {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &kp LANGUAGE_2>;
+            bindings = <&to 24 &kp LANGUAGE_2>;
             label = "TO_ENGLISH";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -766,7 +766,7 @@
         xx_ku: xx_ku {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp K &kp U>;
+            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp K &kp U>;
             label = "XX_KU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -775,7 +775,7 @@
         xx_ki: xx_ki {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp K &kp I>;
+            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp K &kp I>;
             label = "XX_KI";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -784,7 +784,7 @@
         xx_tu: xx_tu {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp T &kp U>;
+            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp T &kp U>;
             label = "XX_TU";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -793,7 +793,7 @@
         single_vowel: single_vowel {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "SINGLE_VOWEL";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -802,7 +802,7 @@
         nn_vowel: nn_vowel {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp N &kp N>;
+            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER &kp N &kp N>;
             label = "NN_VOWEL";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -811,10 +811,17 @@
         escape_ime: escape_ime {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ESCAPE &kp LANGUAGE_2 &to 0>;
+            bindings = <&kp ESCAPE &kp LANGUAGE_2 &to 24>;
             label = "ESCAPE_IME";
             wait-ms = <0>;
             tap-ms = <0>;
+        };
+
+        mod_with_mo: new_macro {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&mo 23 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            label = "NEW_MACRO";
         };
     };
 
@@ -841,23 +848,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer_0 {
-            bindings = <
-&none             &none          &none      &none         &none     &none                                                          &none                    &none  &none  &none       &none   &none
-&kp TAB           &kp SQT        &kp COMMA  &kp PERIOD    &kp P     &kp Y                                                          &kp F                    &kp G  &kp C  &kp R       &kp L   &kp SLASH
-&kp LEFT_CONTROL  &kp A          &kp O      &kp E         &kp U     &kp I                     &none             &none              &kp D                    &kp H  &kp T  &kp N       &kp S   &kp MINUS
-&kp LSHFT         &kp SEMICOLON  &kp Q      &kp J         &kp K     &kp X                     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp B                    &kp M  &kp W  &kp V       &kp Z   &lt 26 GRAVE
-&escape_ime       &mo 26         &kp LGUI   &kp LEFT_ALT  &kp BSPC  &hold_and_tap_eng LWIN 0  &kp SPACE         &kp ENTER          &hold_and_tap_ja RWIN 0  &none  &none  &kp DELETE  &mo 25  &mo 24
-            >;
-        };
-
         gact10_base {
             bindings = <
-&trans  &trans             &trans               &trans                &trans                   &trans                                                                    &trans         &trans         &trans         &trans         &trans         &trans
-&trans  &single_vowel SQT  &single_vowel COMMA  &single_vowel PERIOD  &to_small                &to_with 19 V                                                             &to_with 10 Y  &to_with 14 G  &to_with 3 K   &to_with 11 R  &to_with 17 P  &single_vowel SLASH
-&trans  &single_vowel A    &single_vowel O      &single_vowel E       &single_vowel U          &single_vowel I  &trans                      &trans                       &to_with 16 D  &to_with 8 H   &to_with 6 T   &to_with 7 N   &to_with 5 S   &single_vowel MINUS
-&trans  &nn_vowel A        &nn_vowel O          &nn_vowel E           &nn_vowel U              &nn_vowel I      &single_vowel LEFT_BRACKET  &single_vowel RIGHT_BRACKET  &to_with 13 B  &to_with 9 M   &to_with 12 W  &to_with 18 F  &to_with 15 Z  &trans
-&trans  &trans             &trans               &trans                &single_vowel BACKSPACE  &trans           &single_vowel SPACE         &single_vowel ENTER          &trans         &trans         &trans         &trans         &trans         &trans
+&none                    &none              &none                &none                  &none                    &none                                                                              &none                    &none          &none          &none                 &none          &none
+&single_vowel TAB        &single_vowel SQT  &single_vowel COMMA  &single_vowel PERIOD   &to_small                &to_with 18 V                                                                      &to_with 9 Y             &to_with 13 G  &to_with 2 K   &to_with 10 R         &to_with 16 P  &single_vowel SLASH
+&mod_with_mo LCTRL       &single_vowel A    &single_vowel O      &single_vowel E        &single_vowel U          &single_vowel I           &none                       &none                        &to_with 15 D            &to_with 7 H   &to_with 5 T   &to_with 6 N          &to_with 4 S   &single_vowel MINUS
+&mod_with_mo LEFT_SHIFT  &nn_vowel A        &nn_vowel O          &nn_vowel E            &nn_vowel U              &nn_vowel I               &single_vowel LEFT_BRACKET  &single_vowel RIGHT_BRACKET  &to_with 12 B            &to_with 8 M   &to_with 11 W  &to_with 17 F         &to_with 14 Z  &single_vowel GRAVE
+&escape_ime              &mo 26             &mod_with_mo LWIN    &mod_with_mo LEFT_ALT  &single_vowel BACKSPACE  &hold_and_tap_eng LWIN 0  &single_vowel SPACE         &single_vowel ENTER          &hold_and_tap_ja RWIN 0  &none          &none          &single_vowel DELETE  &mo 25         &mo 24
             >;
         };
 
@@ -875,7 +872,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &ara    &y_youon  &yuu    &ur     &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ata    &to 21    &oto    &to 22  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ata    &to 20    &oto    &to 21  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &angae  &amo      &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
@@ -896,7 +893,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &imas     &it     &ur     &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ar     &y_youon  &yuu    &ase    &you      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 23  &to 21    &to 22  &trans  &orezore  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 22  &to 20    &to 21  &trans  &orezore  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans
             >;
         };
@@ -906,7 +903,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans    &trans   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &s_youon  &trans    &oki      &or      &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &oiu      &y_youon  &yuu      &osite   &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 23    &to 21    &h_youon  &itadak  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 22    &to 20    &h_youon  &itadak  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans   &trans  &trans
             >;
         };
@@ -916,7 +913,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans   &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &agara    &aka      &ituite  &ar              &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ado      &y_youon  &yuu     &single_vowel N  &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &akereba  &to 21    &akute   &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &akereba  &to 20    &akute   &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans   &trans           &trans  &trans
             >;
         };
@@ -924,7 +921,7 @@
         gact10_ha {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &to 22  &ur       &to 21  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &to 21  &ur       &to 20  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &odo    &ito    &yuu    &y_youon  &you    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &anas   &trans  &trans  &trans    &ijou   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
@@ -935,7 +932,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans   &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans   &ono    &ar       &as     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ade      &trans   &to 22  &trans    &to 21  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ade      &trans   &to 21  &trans    &to 20  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &ousiage  &bs_omo  &yu_    &y_youon  &you    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans  &trans    &trans  &trans
             >;
@@ -945,7 +942,7 @@
             bindings = <
 &trans  &trans  &trans  &trans     &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &bs_ei     &trans  &trans                  &bs_iu  &oko    &ama    &or     &ar     &trans
-&trans  &trans  &trans  &otte      &trans  &oi     &trans  &trans  &asuk   &trans  &trans  &trans  &to 21  &trans
+&trans  &trans  &trans  &otte      &trans  &oi     &trans  &trans  &asuk   &trans  &trans  &trans  &to 20  &trans
 &trans  &trans  &trans  &bs_iware  &trans  &asui   &trans  &trans  &ubi    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -955,7 +952,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &y_youon  &yuu    &trans  &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &are    &to 21    &to 22  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &are    &to 20    &to 21  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &eba    &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
@@ -965,7 +962,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &ho_    &trans  &trans  &trans                  &trans  &trans  &akar   &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 21  &atasi  &ar     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 20  &atasi  &ar     &trans  &trans
 &trans  &trans  &hon    &trans  &trans  &trans  &trans  &trans  &trans  &ho     &trans  &trans  &ho_    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -975,7 +972,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &eki    &ur       &ar     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 22  &trans    &to 21  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 21  &trans    &to 20  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &yuu    &y_youon  &you    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
             >;
@@ -985,7 +982,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &ur     &yuu    &y_youon  &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &oto    &trans    &to 21  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &oto    &trans    &to 20  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
             >;
@@ -995,7 +992,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 23  &to 21    &to 22  &ur     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 22  &to 20    &to 21  &ur     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &aruwo  &y_youon  &yuu    &ar     &you    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
@@ -1004,7 +1001,7 @@
         gact10_da {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &aga    &eki    &or       &to 21  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &aga    &eki    &or       &to 20  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bs_node  &eha    &ear    &y_youon  &es     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &h_youon  &emo    &trans  &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans
@@ -1015,7 +1012,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &y_youon  &yuu    &ur     &you    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 21    &to 22  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 20    &to 21  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
@@ -1025,7 +1022,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans     &trans  &trans
 &trans  &trans  &o_     &trans  &yu_    &trans                  &trans  &trans  &trans  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &yu     &trans  &trans  &trans  &trans  &to 21  &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &yu     &trans  &trans  &trans  &trans  &to 20  &trans  &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &yun    &trans  &trans  &trans  &trans  &trans  &trans  &bs_onazi  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans
             >;
@@ -1078,6 +1075,16 @@
 &trans  &xx_ki A  &xx_ki O  &xx_ki E  &xx_ki U  &xx_ki I  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        ascii {
+            bindings = <
+&none             &none          &none      &none         &none     &none                                        &none   &none  &none  &none       &none   &none
+&kp TAB           &kp SQT        &kp COMMA  &kp PERIOD    &kp P     &kp Y                                        &kp F   &kp G  &kp C  &kp R       &kp L   &kp SLASH
+&kp LEFT_CONTROL  &kp A          &kp O      &kp E         &kp U     &kp I   &none             &none              &kp D   &kp H  &kp T  &kp N       &kp S   &kp MINUS
+&kp LSHFT         &kp SEMICOLON  &kp Q      &kp J         &kp K     &kp X   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp B   &kp M  &kp W  &kp V       &kp Z   &kp GRAVE
+&kp ESCAPE        &trans         &kp LGUI   &kp LEFT_ALT  &kp BSPC  &trans  &kp SPACE         &kp ENTER          &trans  &none  &none  &kp DELETE  &trans  &trans
             >;
         };
 
