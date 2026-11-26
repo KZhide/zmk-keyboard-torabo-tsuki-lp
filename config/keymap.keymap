@@ -8,12 +8,6 @@
     combos {
         compatible = "zmk,combos";
 
-        bt_clear {
-            bindings = <&bt BT_CLR>;
-            key-positions = <29 28>;
-            layers = <25>;
-        };
-
         lpar {
             bindings = <&kp LPAR>;
             key-positions = <28 16>;
@@ -21,7 +15,7 @@
 
         rpar {
             bindings = <&kp RPAR>;
-            key-positions = <19 33>;
+            key-positions = <17 29>;
         };
     };
 
@@ -839,6 +833,20 @@
 
             label = "NEW_MACRO";
         };
+
+        reset_press: reset_press {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings =
+                <&to 0>,
+                <&macro_press>,
+                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+
+            label = "RESET_PRESS";
+        };
     };
 
     behaviors {
@@ -859,6 +867,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        ht_vowel: ht_vowel {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_VOWEL";
+            bindings = <&mo>, <&single_vowel>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -866,11 +883,11 @@
 
         gact10_base {
             bindings = <
-&none                    &none              &none                &none                  &none                    &none                                                                              &none                    &none          &none          &none                 &none          &none
-&single_vowel TAB        &single_vowel SQT  &single_vowel COMMA  &single_vowel PERIOD   &to_small                &to_with 18 V                                                                      &to_with 9 Y             &to_with 13 G  &to_with 2 K   &to_with 10 R         &to_with 16 P  &single_vowel SLASH
-&mod_with_mo LCTRL       &single_vowel A    &single_vowel O      &single_vowel E        &single_vowel U          &single_vowel I           &none                       &none                        &to_with 15 D            &to_with 7 H   &to_with 5 T   &to_with 6 N          &to_with 4 S   &single_vowel MINUS
-&mod_with_mo LEFT_SHIFT  &nn_vowel A        &nn_vowel O          &nn_vowel E            &nn_vowel U              &nn_vowel I               &single_vowel LEFT_BRACKET  &single_vowel RIGHT_BRACKET  &to_with 12 B            &to_with 8 M   &to_with 11 W  &to_with 17 F         &to_with 14 Z  &single_vowel GRAVE
-&escape_ime              &mo 26             &mod_with_mo LWIN    &mod_with_mo LEFT_ALT  &single_vowel BACKSPACE  &hold_and_tap_eng LWIN 0  &single_vowel SPACE         &single_vowel ENTER          &hold_and_tap_ja RWIN 0  &none          &none          &single_vowel DELETE  &mo 25         &mo 24
+&none                    &none              &none                &none                  &none                   &none                                                                              &none                    &none          &none          &none                &none          &none
+&single_vowel TAB        &single_vowel SQT  &single_vowel COMMA  &single_vowel PERIOD   &to_small               &to_with 18 V                                                                      &to_with 9 Y             &to_with 13 G  &to_with 2 K   &to_with 10 R        &to_with 16 P  &single_vowel SLASH
+&mod_with_mo LCTRL       &single_vowel A    &single_vowel O      &single_vowel E        &single_vowel U         &single_vowel I           &none                       &none                        &to_with 15 D            &to_with 7 H   &to_with 5 T   &to_with 6 N         &to_with 4 S   &single_vowel MINUS
+&mod_with_mo LEFT_SHIFT  &nn_vowel A        &nn_vowel O          &nn_vowel E            &nn_vowel U             &nn_vowel I               &single_vowel LEFT_BRACKET  &single_vowel RIGHT_BRACKET  &to_with 12 B            &to_with 8 M   &to_with 11 W  &to_with 17 F        &to_with 14 Z  &single_vowel GRAVE
+&escape_ime              &mo 26             &mod_with_mo LWIN    &mod_with_mo LEFT_ALT  &reset_press BACKSPACE  &hold_and_tap_eng LWIN 0  &ht_vowel 24 SPACE          &ht_vowel 24 ENTER           &hold_and_tap_ja RWIN 0  &none          &none          &reset_press DELETE  &mo 25         &mo 24
             >;
         };
 
@@ -1096,31 +1113,31 @@
 
         ascii {
             bindings = <
-&none             &none          &none      &none         &none     &none                                        &none   &none  &none  &none       &none   &none
-&kp TAB           &kp SQT        &kp COMMA  &kp PERIOD    &kp P     &kp Y                                        &kp F   &kp G  &kp C  &kp R       &kp L   &kp SLASH
-&kp LEFT_CONTROL  &kp A          &kp O      &kp E         &kp U     &kp I   &none             &none              &kp D   &kp H  &kp T  &kp N       &kp S   &kp MINUS
-&kp LSHFT         &kp SEMICOLON  &kp Q      &kp J         &kp K     &kp X   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp B   &kp M  &kp W  &kp V       &kp Z   &kp GRAVE
-&kp ESCAPE        &trans         &kp LGUI   &kp LEFT_ALT  &kp BSPC  &trans  &kp SPACE         &kp ENTER          &trans  &none  &none  &kp DELETE  &trans  &trans
+&none                 &none          &none      &none         &none     &none                                        &none   &none  &none  &none       &none   &none
+&kp TAB               &kp SQT        &kp COMMA  &kp PERIOD    &kp P     &kp Y                                        &kp F   &kp G  &kp C  &kp R       &kp L   &kp SLASH
+&kp LEFT_CONTROL      &kp A          &kp O      &kp E         &kp U     &kp I   &none             &none              &kp D   &kp H  &kp T  &kp N       &kp S   &kp MINUS
+&kp LSHFT             &kp SEMICOLON  &kp Q      &kp J         &kp K     &kp X   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp B   &kp M  &kp W  &kp V       &kp Z   &kp GRAVE
+&single_vowel ESCAPE  &trans         &kp LGUI   &kp LEFT_ALT  &kp BSPC  &trans  &lt 24 SPACE      &lt 24 ENTER       &trans  &none  &none  &kp DELETE  &trans  &trans
             >;
         };
 
-        layer_2 {
+        num_and_symbol {
             bindings = <
-&trans  &trans            &trans            &trans      &trans      &trans                          &trans         &trans          &trans          &trans        &trans           &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                      &kp LS(N6)     &kp LS(N7)      &kp LS(N8)      &kp LS(N9)    &kp LS(N0)       &trans
-&trans  &kp N1            &kp N2            &kp N3      &kp N4      &kp N5      &trans      &trans  &kp EQUAL      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp N6            &kp N7            &kp N8      &kp N9      &kp N0      &kp PERIOD  &trans  &kp BACKSLASH  &kp PIPE        &kp EQUAL       &kp PLUS      &kp MINUS        &trans
-&trans  &trans            &trans            &trans      &trans      &trans      &trans      &trans  &trans         &trans          &trans          &trans        &trans           &trans
+&trans  &trans       &trans        &trans        &trans        &trans                     &trans           &trans        &trans        &trans         &trans      &trans
+&trans  &kp SLASH    &kp N7        &kp N8        &kp N9        &kp MINUS                  &kp EXCLAMATION  &kp UP_ARROW  &kp QUESTION  &kp AT         &kp CARET   &kp AMPS
+&trans  &kp ASTRK    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &trans  &trans  &kp LEFT         &kp DOWN      &kp RIGHT     &kp LESS_THAN  &kp DOLLAR  &kp GREATER_THAN
+&trans  &kp HASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &trans  &kp SLASH        &kp PIPE      &kp BSLH      &kp MINUS      &kp EQUAL   &kp PLUS
+&trans  &kp PERCENT  &kp N0        &kp DOT       &trans        &trans     &trans  &trans  &trans           &trans        &trans        &trans         &trans      &trans
             >;
         };
 
-        layer_3 {
+        func_and_control {
             bindings = <
-&trans  &trans   &trans   &trans        &trans        &trans                      &trans            &trans     &trans         &trans          &trans      &trans
-&trans  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5                      &kp HOME          &kp PG_UP  &kp PAGE_DOWN  &kp END         &kp ESCAPE  &trans
-&trans  &kp F6   &kp F7   &kp F8        &kp F9        &kp F10     &trans  &trans  &kp LEFT          &kp DOWN   &kp UP_ARROW   &kp RIGHT       &kp TAB     &trans
-&trans  &kp F11  &kp F12  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &kp SINGLE_QUOTE  &kp DQT    &kp GRAVE      &kp TILDE       &kp PIPE    &trans
-&trans  &trans   &trans   &trans        &kp DELETE    &kp TAB     &trans  &trans  &trans            &trans     &trans         &bt BT_CLR_ALL  &trans      &trans
+&trans  &trans   &trans   &trans        &trans        &trans                      &trans        &trans        &trans         &trans          &trans      &trans
+&trans  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5                      &kp HOME      &kp PG_UP     &kp PAGE_DOWN  &kp END         &kp ESCAPE  &trans
+&trans  &kp F6   &kp F7   &kp F8        &kp F9        &kp F10     &trans  &trans  &kp LEFT      &kp DOWN      &kp UP_ARROW   &kp RIGHT       &kp TAB     &trans
+&trans  &kp F11  &kp F12  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4    &kp PIPE    &trans
+&trans  &trans   &trans   &trans        &trans        &trans      &trans  &trans  &trans        &trans        &trans         &bt BT_CLR_ALL  &trans      &trans
             >;
         };
 
